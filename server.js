@@ -15,7 +15,11 @@ var db = mongoose.connect(config.db, function(err) {
     }
 });
 
+// Init the express app
 var app = require('./config/express')(db);
+
+// Bootstrap passport config
+require('./config/passport')();
 
 app.listen(config.port);
 
