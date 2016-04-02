@@ -9,7 +9,7 @@ module.exports = {
         description: 'Awesome MEAN App fo saving and managing your favorite web pages.',
         keywords: 'bookmarks saver, bookmarks manager'
     },
-    port: process.env.PORT || 3000,
+    port: process.env.PORT || 3001,
     templateEngine: 'swig',
     sessionSecret: 'meanbmsaver',
     sessionCollection: 'sessions',

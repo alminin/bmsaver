@@ -25,4 +25,4 @@ app.listen(config.port);
 
 exports = module.exports = app;
 
-console.log('bmsave app started on port ' + config.port);
+console.log('bmsaver app started on port ' + config.port);

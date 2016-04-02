@@ -13,9 +13,9 @@ angular.module('core')
             $scope.isCollapsed = !$scope.isCollapsed;
         };
 
-        //TODO Collapsing the menu after navigation
-        /*$scope.$on('$stateChangeSuccess', function() {
+        // Collapsing the menu after navigation
+        $scope.$on('$stateChangeSuccess', function() {
             $scope.isCollapsed = false;
-        });*/
+        });
     }
 ]);
